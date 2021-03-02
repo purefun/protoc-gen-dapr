@@ -1,5 +1,7 @@
 # protoc-gen-dapr
 
+A protoc plugin for generating typed client and server code of Dapr service.
+
 ## Installation
 
 ### 1. Install protobuf compiler
