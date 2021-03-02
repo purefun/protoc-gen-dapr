@@ -2,7 +2,7 @@
 
 ## Installation
 
-### Install protobuf compiler
+### 1. Install protobuf compiler
 
 macOS:
 
@@ -15,11 +15,11 @@ Linux:
 [Install pre-compiled binaries (any OS)](https://grpc.io/docs/protoc-installation/#install-pre-compiled-binaries-any-os)
 
 
-### Install protoc-gen-go
+### 2. Install protoc-gen-go
 
 `$ go get google.golang.org/protobuf/cmd/protoc-gen-go`
 
-### Install protoc-gen-dapr
+### 3. Install protoc-gen-dapr
 
 `$ go get github.com/purefun/protoc-gen-dapr/cmd/protoc-gen-dapr`
 
