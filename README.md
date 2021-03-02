@@ -106,5 +106,6 @@ func server() {
 Run Dapr services:
 
 `dapr run -a echo_server -p 3000 -P grpc -- go run main.go --server`
+
 `dapr run -a echo_client -p 3000 -P grpc -- go run main.go --client`
 
