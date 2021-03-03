@@ -1,4 +1,4 @@
-package main
+package cmd
 
 import (
 	"flag"
@@ -9,9 +9,9 @@ import (
 	"google.golang.org/protobuf/types/pluginpb"
 )
 
-const version = "1.0.0"
+const version = "0.3.0"
 
-func main() {
+func Execute() {
 	showVersion := flag.Bool("version", false, "print the version and exit")
 	flag.Parse()
 	if *showVersion {
